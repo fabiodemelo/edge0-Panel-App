@@ -1,0 +1,23 @@
+Panel Edge0
+===========
+
+Panel Edge0 is a menu bar app for Mac. It starts, stops and switches Edge0 models.
+
+Copyright 2026 demelos LLC. Licensed under the Apache License, Version 2.0
+(see LICENSE).
+
+Panel Edge0 is an independent app. The Edge0 project does not endorse or
+sponsor it, and the Edge0 name belongs to its owners.
+
+Panel Edge0 contains no code from Edge0 and has no third-party dependencies. It
+uses only Apple system frameworks. At run time, and only when you ask for it,
+the app downloads:
+
+  - The Edge0 engine, from the official release at
+    https://github.com/Edge0-AI/edge0 (Apache License 2.0, copyright edge0
+    contributors; the third-party works bundled with that release are listed in
+    its NOTICE file).
+  - Edge0 models, from the official Edge0 page on Hugging Face,
+    https://huggingface.co/Edge0.
+
+Those downloads keep their own licenses.
